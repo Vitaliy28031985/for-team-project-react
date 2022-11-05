@@ -34,9 +34,27 @@ img {
 }
 
 
+.signature {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0px 20px 20px 0px;
 
+}
 
-
+.signature p {
+    display: block;
+    margin-left: 20px;
+    margin-right: 52px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #111111;
+}
 
 
 .animal-list {
@@ -53,6 +71,7 @@ img {
 }
 
 .animal-list li {
+    position: relative;
     width: 288px;
     margin-right: 32px;
     margin-bottom: 32px;
