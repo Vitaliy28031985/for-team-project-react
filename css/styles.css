@@ -1,0 +1,129 @@
+body {
+    background-color: #F5F5F5;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+.animal-list {
+/* в проекті треба width: 1280px забрати */
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -32px;
+    margin-bottom: -32px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.animal-list li {
+    width: 288px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    flex-basis: calc((100% - 128px) / 4);
+    background-color:  #FFFFFF;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 7px 4px 14px rgba(49, 21, 4, 0.07);
+}
+
+.animal-list-img {
+    width: 288px;
+    margin-bottom: 20px;
+}
+
+.animal-list-title {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.4;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    color: #111111;
+}
+
+.animal-list-box-text {
+    display: flex;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: #111111;
+}
+
+#breed {
+    margin-right: 37px;
+}
+
+#place {
+margin-right: 40px;
+}
+
+#age {
+margin-right: 52px;
+}
+
+#price {
+margin-right: 44px;
+}
+
+.animal-list-button {
+width: 248px;
+border: 2px solid #F59256;
+border-radius: 40px;
+margin-left: 20px;
+margin-bottom: 32px;
+margin-top: 20px;
+}
+
+.animal-list-button a {
+    display: block;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #F59256;
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
